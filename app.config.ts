@@ -66,7 +66,7 @@ export default defineAppConfig({
     robots: [
         {
             UserAgent: "*",
-            Disallow: "/",
+            Disallow: ["/"],
         },
     ],
 });
