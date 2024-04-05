@@ -5,14 +5,3 @@ listed: false
 layout: "themes-mistral-home"
 ---
 
-::MistralHomeLayout
-
-#posts
-    :::MistralLimitedListOfPosts
-    :::
-
-#sidebar
-    :::MistralSideAuthorCard
-    :::
-
-::
