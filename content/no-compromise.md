@@ -2,7 +2,10 @@
 id: "33"
 title: "There is no compromise"
 description: "Why your experience and methods don't always work in all companies. What is culture fit?"
-tags: []
+tags:
+    - opinion
+    - engineering culture
+    - andalousia
 date: "2024-01-18"
 cover: "covers/andalousia.jpg"
 head:

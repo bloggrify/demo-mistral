@@ -20,6 +20,6 @@ export default defineNuxtConfig({
 
     extends: [
         '@bloggrify/core',
-        'github:hlassiege/bloggrify-mistral#main',
+        '@bloggrify/mistral',
     ],
 })

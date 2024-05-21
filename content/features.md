@@ -5,7 +5,10 @@ description: "Discover all the features of Bloggrify."
 date: "2024-02-11"
 cover: "covers/tokyo.jpg"
 table_of_contents: true
-listed: false
+tags:
+    - documentation
+    - features
+    - bloggrify
 ---
 
 ## Introduction
