@@ -39,16 +39,20 @@ cd demo-mistral
 npm install
 ```
 
-Then you can run the development server on http://localhost:3000
+Then you can run the development server on http://localhost:3000 to see the theme in action.
 
 ```bash
 npm run dev
 ```
 
-Then, you can remove all contents from the `content` folder and start from scratch and create your own [content](https://bloggrify.com/introduction/writing-pages).
+Then, you can remove all contents from the `content` folder **except the index and archives pages** and start from scratch and create your own [content](https://bloggrify.com/introduction/writing-pages).
 
 
 ## Configuration
 
 Look at the [standard configuration](https://bloggrify.com/introduction/configuration).
+
+## Deployment
+
+To deploy your blog, you should follow the [standard deployment guide](https://bloggrify.com/introduction/deployment).
 

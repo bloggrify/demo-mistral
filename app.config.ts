@@ -5,12 +5,11 @@ export default defineAppConfig({
 
     theme: 'mistral',
 
-    // If you only have one author, you can set the author here
-    // It will be used as the default author for all posts AND as the general logo/description/socials for the website
+    // The name of the blog itself
     name: 'Bloggrify',
     avatar: '/images/avatar.jpg',
-    description:
-        'lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+    // The description of the blog if any
+    description:  'lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
 
     socials: {
         twitter: 'https://twitter.com',
@@ -41,13 +40,16 @@ export default defineAppConfig({
 
     table_of_contents: false,
 
-    // if you have multiple authors, you can set them here
+    // the list of authors
+    // the default author will be used for all posts if no author is specified
+    // and the mistral theme use the default author for the main page
     authors: [
         {
             username: 'john-doe',
+            default: true,
             name: 'John Doe',
             description:
-                'lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+                'Some description about the author',
             avatar: '/images/avatar.jpg',
             socials: {
                 twitter: 'https://twitter.com',
