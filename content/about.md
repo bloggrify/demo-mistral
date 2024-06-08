@@ -34,7 +34,7 @@ Mistral is a theme for the blogging platform [Bloggrify](https://bloggrify.com).
 To install this theme, you should clone this repository and install the dependencies.
 
 ```bash
-git clone git@github.com:hlassiege/demo-mistral.git
+git clone git@github.com:bloggrify/demo-mistral.git
 cd demo-mistral
 npm install
 ```
