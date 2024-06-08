@@ -52,21 +52,21 @@ export default defineAppConfig({
     // and the mistral theme use the default author for the main page
     authors: [
         {
-            username: 'john-doe',
+            username: 'hugo',
             default: true,
-            name: 'John Doe',
+            name: 'Hugo Lassiège',
             description:
-                'Some description about the author',
+                'Main maintainer of Bloggrify',
             avatar: '/images/avatar.jpg',
             socials: {
-                twitter: 'https://twitter.com',
-                twitter_username: 'username',
-                mastodon: 'https://piaille.fr',
-                youtube: 'https://youtube.com',
-                linkedin: 'https://linkedin.com',
-                facebook: 'https://facebook.com',
-                instagram: 'https://instagram.com',
-                github: 'https://github.com',
+                twitter: 'https://twitter.com/hugolassiege',
+                twitter_username: 'hugolassiege',
+                mastodon: 'https://piaille.fr/@hugolassiege',
+                youtube: 'https://youtube.com/@eventuallycoding',
+                linkedin: 'https://www.linkedin.com/in/hugolassiege/',
+                // facebook: 'https://facebook.com',
+                // instagram: 'https://instagram.com',
+                github: 'https://github.com/hlassiege',
             },
         },
     ],
