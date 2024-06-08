@@ -11,6 +11,13 @@ export default defineAppConfig({
     // The description of the blog if any
     description:  'lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
 
+    analytics: {
+        provider: 'pirsch',
+        pirsch: {
+            code: 'UMgcWhIpdgfYXWLqLmCesiKf6vpSZBfv'
+        }
+    },
+
     socials: {
         twitter: 'https://twitter.com',
         mastodon: 'https://piaille.fr',
@@ -73,7 +80,7 @@ export default defineAppConfig({
     robots: [
         {
             UserAgent: '*',
-            Disallow: ['/'],
+            Allow: ['/'],
         },
     ],
 })

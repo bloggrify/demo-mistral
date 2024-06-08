@@ -1,7 +1,7 @@
 ---
 id: "2"
-title: "Use markdown power"
-description: "Use markdown at its full potential."
+title: "Markdown cheat sheet"
+description: "This is a markdown cheat sheet. It shows you how to use markdown to format your blog posts on Bloggrify."
 date: "2024-02-10"
 categories:
   - markdown
@@ -27,6 +27,21 @@ You should read the [official markdown documentation](https://www.markdownguide.
 Edit this file to see how it works.
 
 
+## Mathematical formulas
+
+**Centered formula**
+$$
+L = \frac{1}{2} \rho v^2 S C_L
+$$
+
+**Using code block**
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+**Inline formula**
+
+This is an inline formula $a^2 + b^2 = c^2$.
 
 ## Horizontal Rules
 
@@ -186,27 +201,9 @@ cover: "doc/markdown.png"
 * `tags` are only used to display the tags on the article page. It's optional.
 * `cover` is used to display an image on the index page. It's also used when you share your article on social media. It's optional (it's however better to have one). 
 
-## Youtube and Twitter embed
 
-You can embed youtube videos and tweets in your markdown files.
+::alert{type="info"}
+On top of the standard markdown features, you can also use custom components with Vue.js to extend markdown features.  
+Read the [custom components documentation](/custom-components) to learn more.
 
-https://www.youtube.com/watch?v=su2gNQJkteg
-
-https://twitter.com/hugolassiege/status/1750435525071159309
-
-
-## Custom components
-You can also use [custom components](https://content.nuxt.com/usage/markdown#vue-components) with vue.js to extend markdown features. Some components are already available such as:
-
-::alert{type="TIP"}
-This is a tip 
 ::
-
-::alert{type="Warning"}
-This is a warning
-::
-
-
-And the table of contents : 
-
-:toc
