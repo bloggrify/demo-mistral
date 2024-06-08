@@ -57,7 +57,7 @@ export default defineAppConfig({
             name: 'Hugo Lassiège',
             description:
                 'Main maintainer of Bloggrify',
-            avatar: '/images/avatar.jpg',
+            avatar: '/images/avatar.jpeg',
             socials: {
                 twitter: 'https://twitter.com/hugolassiege',
                 twitter_username: 'hugolassiege',
