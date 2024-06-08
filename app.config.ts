@@ -34,8 +34,8 @@ export default defineAppConfig({
 
     newsletter: {
         enabled: true,
-        form_action: 'YOUR_NEWSLETTER_FORM_ACTION',
-        provider: 'demo'
+        form_action: 'rssfeedpulse',
+        provider: 'https://rssfeedpulse.com/api/campaign/996539cf-73e4-47b5-8d7c-2d7450174467/subscribe'
     },
 
     comments: {
