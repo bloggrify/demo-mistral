@@ -1,2 +1,2 @@
 [[plugins]]
-package = "netlify-plugin-playwright-cache"
+    package = "netlify-plugin-playwright-cache"
