@@ -19,7 +19,6 @@
     "@nuxt/eslint-config": "^0.2.0",
     "autoprefixer": "10.4.17",
     "eslint": "8.56.0",
-    "netlify-plugin-playwright-cache": "^0.0.1",
     "sass": "1.70.0"
   }
 }
