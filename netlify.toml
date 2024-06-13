@@ -1,2 +1,9 @@
+[build.environment]
+    PLAYWRIGHT_BROWSERS_PATH = "0"
+
 [[plugins]]
-    package = "netlify-plugin-playwright-cache"
+    package = "netlify-plugin-playwright"
+
+[[plugins.inputs]]
+    commands = ["npx playwright install"]
+
