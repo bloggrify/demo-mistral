@@ -26,23 +26,6 @@ text formatting, images, links, code blocks, etc.
 You should read the [official markdown documentation](https://www.markdownguide.org/) to learn more about markdown.   
 Edit this file to see how it works.
 
-
-## Mathematical formulas
-
-**Centered formula**
-$$
-L = \frac{1}{2} \rho v^2 S C_L
-$$
-
-**Using code block**
-```math
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-```
-
-**Inline formula**
-
-This is an inline formula $a^2 + b^2 = c^2$.
-
 ## Horizontal Rules
 
 ___
@@ -195,6 +178,41 @@ Duplicated footnote reference[^second].
     and multiple paragraphs.
 
 [^second]: Footnote text.
+
+## Advanced markdown features
+
+You can use advanced markdown features such as graphs, mathematical formulas and custom components.
+
+## Graphs
+
+You can use [mermaid](/mermaid) to create diagrams and flowcharts.
+
+Here is an example of a basic flowchart:
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+## Mathematical formulas
+
+**Centered formula**
+$$
+L = \frac{1}{2} \rho v^2 S C_L
+$$
+
+**Using code block**
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+**Inline formula**
+
+This is an inline formula $a^2 + b^2 = c^2$.
+
 
 ## Frontmatter
 It also supports frontmatter to add metadata to your markdown files.
