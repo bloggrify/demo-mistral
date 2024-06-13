@@ -202,7 +202,7 @@ cover: "doc/markdown.png"
 * `cover` is used to display an image on the index page. It's also used when you share your article on social media. It's optional (it's however better to have one). 
 
 
-::alert{type="info"}
+::alert{type="tip"}
 On top of the standard markdown features, you can also use custom components with Vue.js to extend markdown features.  
 Read the [custom components documentation](/custom-components) to learn more.
 
