@@ -128,6 +128,13 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
+It's also possible to display a code block with a specific file name:
+```js [file.js]
+  export default () => {
+    console.log('Code block')
+  }
+```
+
 
 ## Tables
 
@@ -154,10 +161,19 @@ Right aligned columns
 
 Autoconverted link https://www.google.com
 
+## Youtube and Twitter embed
+
+You can embed youtube videos and tweets in your markdown files.
+
+https://www.youtube.com/watch?v=su2gNQJkteg
+
+https://twitter.com/hugolassiege/status/1750435525071159309
+
+
 ## Images
 
 
-This is a paragraph with an image ![the image is automatically centered on the page and the alt text is displayed below as a caption](/images/doc/image-eventuallycoding.jpg "title of the image you should add for accessibility").
+This is a paragraph with an image ![the image is automatically centered on the page and the alt text is displayed below as a caption](/android-chrome-192x192.png).
 
 
 ## Emojies
@@ -201,6 +217,8 @@ cover: "doc/markdown.png"
 * `tags` are only used to display the tags on the article page. It's optional.
 * `cover` is used to display an image on the index page. It's also used when you share your article on social media. It's optional (it's however better to have one). 
 
+
+## Custom components
 
 ::alert{type="tip"}
 On top of the standard markdown features, you can also use custom components with Vue.js to extend markdown features.  
