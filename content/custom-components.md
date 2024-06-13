@@ -143,3 +143,10 @@ This is a warning
 ```
 ::
 
+**Configuration :**
+
+| Parameter                                       | Description                                                                              |
+|-------------------------------------------------|------------------------------------------------------------------------------------------|
+| `type`                                          | The type of alert. Can be `warning`, or `tip`.                                           |
+| `showChildren`                                  | If set to `true`, the H3 will be displayed in the table of contents. Default is `false`. |
+
