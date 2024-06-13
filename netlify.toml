@@ -4,6 +4,6 @@
 [[plugins]]
     package = "netlify-plugin-playwright"
 
-[[plugins.inputs]]
+    [plugins.inputs]
     commands = ["npx playwright install"]
 
