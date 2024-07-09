@@ -3,7 +3,7 @@
   "name": "bloggrify-mistral-demo",
   "type": "module",
   "scripts": {
-    "preinstall": "npx playwright install",
+    "preinstall": "npx playwright install --with-deps",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -11,7 +11,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@bloggrify/core": "1.4.0",
+    "@bloggrify/core": "1.4.1",
     "@bloggrify/mistral": "1.2.1",
     "nuxt": "3.11.2"
   },
