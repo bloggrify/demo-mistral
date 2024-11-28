@@ -11,8 +11,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@bloggrify/core": "1.7.0",
-    "@bloggrify/mistral": "1.2.2",
+    "@bloggrify/core": "1.8.0",
+    "@bloggrify/mistral": "1.2.3",
     "nuxt": "3.14.1592"
   },
   "devDependencies": {
