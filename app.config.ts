@@ -3,7 +3,7 @@ export default defineAppConfig({
 
     url: 'https://mistral.bloggrify.com/',
 
-    theme: 'mistral',
+    theme: 'Mistral',
 
     // The name of the blog itself
     name: 'Bloggrify',
