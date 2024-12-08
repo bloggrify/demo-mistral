@@ -103,9 +103,9 @@ Disallow: /
 
 Performance are an important part of SEO. Here is the lighthouse score of this blog:
 
-| index page                                | blog post                                          |
-|-------------------------------------------|----------------------------------------------------|
-| ![index page](/images/doc/lighthouse.jpg) | ![blog post](/images/doc/lighthouse-blog-post.jpg) |
+| index page                                                                     | blog post                                                                                   |
+|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| ![Lighthouse score for the index page](/images/doc/lighthouse.jpg) | ![lighthouse score for the blog post page](/images/doc/lighthouse-blog-post.jpg) |
 
 Performance could vary depending on the server and the network and images you use in your blog.
 
