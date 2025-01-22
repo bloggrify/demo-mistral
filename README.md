@@ -1,5 +1,11 @@
 # Mistral
 
+**https://bloggrify.com/introduction/installation
+
+**Please follow [the official documentation](https://bloggrify.com/introduction/installation) to get started with Bloggrify.**
+
+
+
 Mistral is the default blog template for [Bloggrify](https://github.com/bloggrify/bloggrify). It is a clean, accessible, responsive and SEO-efficient blog template.
 
 
